@@ -1,0 +1,23 @@
+{
+
+  "title": "Security Dashboard",
+  "titleVisible": true,
+
+  "description": "Monitor Security of an app",
+
+  "layout": {
+      "gridSize" : { "columns" : 20, "rows" : 12 },
+      "customJS" : [],
+      "widgets" : [
+        {"row" : 1, "col" : 1, "width" : 8, "height" : 12, "widget" : "vulnerabilities", "job" : "vulnerabilities", "config": "app"},
+        {"row" : 1, "col" : 5, "width" : 12, "height" : 12, "widget" : "latest-report", "job" : "latest-report", "config": "app"}
+      ]
+  },
+
+  "config": {
+      "app" : {
+        "interval" : 10000,
+        "appId" :  "02f007e1-8719-4ec0-aca9-49eeec7aa69d"
+      }
+  }
+}
