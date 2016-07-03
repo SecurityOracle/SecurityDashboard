@@ -1,10 +1,9 @@
 {
   "private": true,
   "license": "Apache License, Version 2.0",
-  "author": "AtlasBoard",
-  "name": "your-dashboard-name-here",
-  "description": "A dashboard built for AtlasBoard",
-  "version": "0.0.1",
+  "name": "SecurityDashboard",
+  "description": "A dashboard to monitor the vulnerability status of applications using Security Oracle",
+  "version": "1.0.0",
   "homepage": "",
   "repository": {
     "type": "git",
